@@ -8,6 +8,7 @@ a smartphone by a number of subjects, performing several activities.
 The original dataset is split in two sets, training and test. For each set, data is split
 into 3 files: one for the data, one for the activity being performed and a third one for
 the subject. The steps followed to obtain the final dataset are:
+
 1. Train (train/X_train.txt) and test (test/X_test.txt) data are joined.
 1. Columns in the data are labelled using the features.txt file.
 1. Train (train/y_train.txt) and test (test/y_test.txt) activities are joined, and added to the dataset.
